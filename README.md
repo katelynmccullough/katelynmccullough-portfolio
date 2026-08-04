@@ -82,11 +82,11 @@ export const experience = [
     }
 ];
 
-export const blogs = [
+<!-- export const blogs = [
     {
         title: "Your Blog Title",
         date: "Date",
         link: "#",
     }
-];
+]; -->
 ```

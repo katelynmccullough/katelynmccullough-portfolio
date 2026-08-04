@@ -8,7 +8,7 @@ export default function Navbar() {
     const [hideOnMobile, setHideOnMobile] = useState(true);
     const pathname = usePathname();
     const [isDark, setIsDark] = useState(false);
-    const blogs = pathname === "/blogs";
+    // const blogs = pathname === "/blogs";
 
     useEffect(() => {
         const savedTheme = localStorage.getItem("theme");
@@ -80,19 +80,19 @@ export default function Navbar() {
                                 </li>
                             </ul>
 
-                            <Link
+                            {/* <Link
                                 href="/blogs"
                                 className="hover:underline hidden sm:block"
                             >
                                 Blogs
-                            </Link>
+                            </Link> */}
 
-                            <Link
+                            {/* <Link
                                 href={blogs ? "/" : "/blogs"}
                                 className="hover:underline block sm:hidden"
                             >
                                 {blogs ? "Home" : "Blogs"}
-                            </Link>
+                            </Link> */}
                         </div>
                         <div className="flex items-center gap-2">
                             <button

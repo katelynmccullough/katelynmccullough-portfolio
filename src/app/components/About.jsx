@@ -12,15 +12,13 @@ export default function About() {
                         {about.about}
                     </p>
                     <p className="text-base text-base-content/80">
-                        If you’ve got any questions or just feel like chatting,
-                        send me an{" "}
+                        Interested in discussing internships, analytics projects, or collaboration opportunities? I'd love to connect.{" "}
                         <a
                             href={`mailto:${about.email}`}
                             className="font-bold hover:underline cursor-pointer"
                         >
-                            (Email)
+                            {about.email}
                         </a>{" "}
-                        I’d love to hear from you.
                     </p>
                 </div>
             </div>

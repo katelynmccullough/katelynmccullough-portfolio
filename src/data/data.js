@@ -1,80 +1,86 @@
 export const about = {
-    name: "Your Name",
-    role: "Your Profession",
-    about: "A minimal, clean portfolio template built with Next.js. Perfect for developers who want a simple yet professional online presence without the complexity.",
-    email: "your.email@example.com",
+    name: "Katelyn McCullough",
+    role: "Data Science Student & Analytics Developer",
+    about:
+        "I'm a Data Science student at Florida Polytechnic University passionate about analytics, machine learning, and business intelligence. I enjoy building software and data-driven tools that solve real business problems, from predictive models to enterprise workflow automation.",
+    email: "mcculloughkatelyn09@gmail.com",
 };
 
 export const seo = {
     title: `${about.name} | ${about.role}`,
-    description: "Minimal, clean Next.js portfolio template for developers seeking a simple, professional online presence without extra complexity.",
-    keywords: "portfolio, web developer, Next.js, developer portfolio, minimal portfolio",
-}
+    description:
+        "Portfolio of Katelyn McCullough, a Data Science student specializing in analytics, predictive modeling, business intelligence, and workflow automation.",
+    keywords:
+        "Katelyn McCullough, data science, data analytics, Power BI, Power Apps, Python, R, SQL, machine learning, portfolio",
+};
 
 export const forms = {
-    formspreeUrl: "https://formspree.io/f/<url>",
-}
+    formspreeUrl: "",
+};
 
 export const skills = [
-    { name: "Html", alt: "html logo", icon: "/html.svg" },
-    { name: "Css", alt: "css logo", icon: "/css.svg" },
-    { name: "Js", alt: "js logo", icon: "/js.svg" },
-    { name: "Tailwind", alt: "tailwind logo", icon: "/tailwind.svg" },
-    { name: "React Js", alt: "react logo", icon: "/react.svg" },
-    { name: "Next Js", alt: "nextjs logo", icon: "/nextjs.svg" },
+    { name: "Python", alt: "Python", icon: "/python.svg" },
+    { name: "R", alt: "R programming", icon: "/r.svg" },
+    { name: "SQL", alt: "SQL", icon: "/sqlite.svg" },
+    { name: "Power BI", alt: "Power BI", icon: "/tailwind.svg" },
+    { name: "JavaScript", alt: "JavaScript", icon: "/javascript.svg" },
+    { name: "Next.js", alt: "Next.js", icon: "/nextjs.svg" },
+    { name: "C", alt: "Next.js", icon: "/c.svg" },
+    { name: "C++", alt: "Next.js", icon: "/cplusplus.svg" },
 ];
 
 export const socials = {
-    github: "https://github.com/sachinbhujel",
-    twitter: "https://twitter.com/sachinbhujel909",
-    instagram: "https://www.instagram.com/imsachinbhujel",
-    facebook: "https://www.facebook.com/imsachinbhujel",
+    github: "https://github.com/katelynmccullough",
+    linkedin: "https://www.linkedin.com/in/katelynmccullough09/",
+    email: "mailto:mcculloughkatelyn09@gmail.com",
+    resume: "/MCCULLOUGH_FPU_DATA_SCIENCE.pdf",
 };
 
 export const projects = {
     pinProjects: [
         {
-            title: "Project 1",
+            title: "Stock Screening and Scoring Platform",
             description:
-                "A sleek, modern portfolio site to showcase your work and skills. Responsive design with smooth navigation and SEO optimization.",
-            tags: ["CSS", "React Js"],
+                "Developed an interactive stock screening application that filters companies by exchange, sector, market capitalization, and other investment criteria. The platform evaluates stocks using a custom scoring system and presents key market information through a responsive interface.",
+            tags: ["Next.js", "TypeScript", "Finance"],
             link: "",
         },
         {
-            title: "Project 2",
+            title: "Global Terrorism Predictive Modeling",
             description:
-                "A clean, minimal blog setup featuring dynamic content, category filters, and easy-to-read layouts. Perfect for sharing your ideas.",
-            tags: ["CSS", "React Js"],
+                "Analyzed more than 200,000 global terrorism incidents in R and developed Random Forest, Logistic Regression, and XGBoost models to predict attack success using data cleaning, feature engineering, and predictive analysis.",
+            tags: ["R", "XGBoost", "Machine Learning"],
             link: "",
         },
         {
-            title: "Project 3",
+            title: "Enterprise Project Reference Tool",
             description:
-                "A fast and scalable online store with product listings, cart functionality, and seamless checkout experience. Built for performance.",
-            tags: ["CSS", "React Js"],
+                "Developed a Power Apps solution integrating Dataverse, SharePoint, and Excel to centralize remodel and project data across hundreds of Publix stores with dynamic search, filtering, and drill-down navigation.",
+            tags: ["Power Apps", "Dataverse", "SharePoint"],
             link: "",
         },
     ],
+
     otherProjects: [
         {
-            title: "Project 4",
+            title: "Business Intelligence and Automated Reporting",
             description:
-                "A sleek, modern portfolio site to showcase your work and skills. Responsive design with smooth navigation and SEO optimization.",
-            tags: ["CSS", "React Js"],
+                "Designed Power BI dashboards that automated executive reporting, visualized remodel pipeline performance and survey data, and transformed operational information into actionable insights.",
+            tags: ["Power BI", "Data Visualization", "Analytics"],
             link: "",
         },
         {
-            title: "Project 5",
+            title: "Prototype Revision Workflow Automation",
             description:
-                "A clean, minimal blog setup featuring dynamic content, category filters, and easy-to-read layouts. Perfect for sharing your ideas.",
-            tags: ["CSS", "React Js"],
+                "Replaced a legacy Smartsheet process with a Power Apps, SharePoint, and Power Automate solution featuring automated approvals, notifications, role-based permissions, and lifecycle management.",
+            tags: ["Power Automate", "Power Apps", "Automation"],
             link: "",
         },
         {
-            title: "Project 6",
+            title: "Investment Portfolio Simulation",
             description:
-                "A fast and scalable online store with product listings, cart functionality, and seamless checkout experience. Built for performance.",
-            tags: ["CSS", "React Js"],
+                "Managed a simulated $100,000 investment portfolio throughout a semester-long market simulation, evaluating investment strategies, portfolio performance, and risk-adjusted returns.",
+            tags: ["Finance", "Portfolio Analysis", "Risk"],
             link: "",
         },
     ],
@@ -82,39 +88,23 @@ export const projects = {
 
 export const experience = [
     {
-        title: "Frontend Developer at Tech Solutions",
+        title: "Facilities Technical Specialist Intern — Publix",
         description:
-            "Worked on building and maintaining responsive web applications using React.js and Next.js, improving UI performance and user experience.",
-        date: "15/01/2024",
+            "Developed enterprise applications, business intelligence dashboards, and automated workflows using Power Apps, Power BI, Power Automate, Dataverse, SharePoint, and Excel. Selected to demonstrate a completed workflow automation solution to the President of Publix during a departmental leadership visit.",
+        date: "May 2026 – July 2026",
     },
     {
-        title: "Web Developer Intern at Creative Studio",
+        title: "Customer Service Staff — Publix",
         description:
-            "Assisted in designing website layouts, wrote clean HTML/CSS code, and collaborated with the team on JavaScript features for client projects.",
-        date: "10/06/2023",
+            "Manage cash office reconciliation, transaction auditing, secure fund handling, front-end operations, and service desk activities while maintaining financial accuracy and operational compliance in a high-volume retail environment.",
+        date: "July 2023 – Present",
     },
     {
-        title: "Junior Developer at Innovate Labs",
+        title: "Cadet Commander — Civil Air Patrol",
         description:
-            "Developed and tested frontend components, optimized web pages for speed, and contributed to team code reviews and debugging sessions.",
-        date: "01/09/2022",
+            "Led cadet operations, training, and logistics while making decisions in high-pressure environments. Mentored cadets and coordinated activities that promoted teamwork, accountability, and organizational effectiveness.",
+        date: "May 2023 – October 2023",
     },
 ];
 
-export const blogs = [
-    {
-        title: "Understanding React Hooks",
-        date: "12/03/2025",
-        link: "#",
-    },
-    {
-        title: "CSS Grid vs Flexbox: When to Use Which",
-        date: "25/12/2024",
-        link: "#",
-    },
-    {
-        title: "Next.js SEO Best Practices",
-        date: "10/07/2024",
-        link: "#",
-    },
-];
+//export const blogs = [];
