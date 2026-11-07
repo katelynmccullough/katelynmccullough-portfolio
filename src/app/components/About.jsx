@@ -17,7 +17,7 @@ export default function About() {
                             href={`mailto:${about.email}`}
                             className="font-bold hover:underline cursor-pointer"
                         >
-                            {about.email}
+                            (Email)
                         </a>{" "}
                     </p>
                 </div>
